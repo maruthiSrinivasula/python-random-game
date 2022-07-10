@@ -12,3 +12,12 @@ To print colored text use in this manner " print(colored("HELLO WORLD !","your c
 Here iam importing "random" module.
 
 random module is used to generate random numbers.
+
+Here we are using two while loops. first while loop for generating random number and taking decision of the user whether user want to play game or not.
+if user enter "yes" the game will start from beginning . if user enters "no" then game stops.
+
+second while loop is used to take input from the user .here user want to enter the correct number here we are using "if statement" to check the input of the user
+if user enters correct number then we will print entered number is correct and we break the if statement and print the score.
+if user enters wrong number then we go to the "else" block and print guess the number.... and continue the second while loop 
+
+second while loop stops only if  user enters correct number or guess the correct number.
